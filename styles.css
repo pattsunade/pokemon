@@ -1,0 +1,151 @@
+body {
+    background: #eee url('https://i.imgur.com/eeQeRmk.png');
+}
+.uigrid{
+    
+    width: 200;
+    
+    margin-top: 160px;
+}
+input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.btn{
+    margin-left: 20px;
+}
+.ui-grid-header-cell{
+    background-color: blueviolet;
+}
+.contenedorImg {
+    width: 500px;
+    margin-left: 400px;
+    
+}
+.logo {
+    
+    width: 500px;
+    height: 200px;
+
+}
+.james {
+    width: 300px;
+    height: 200px;
+   
+    margin-top: -195px;
+    margin-left: 950px;
+    
+}
+.jessie {
+    width: 200px;
+    height: 200px;
+    margin-top: -195px;
+    margin-left: 150px;
+    
+}
+.ui-grid-pager-control button{
+    background: violet;
+}
+input[type="text"].ui-grid-filter-input{
+    background-color:  #D3D3D3;
+    border-radius: 5px;
+    border: none;
+}
+input[type="text"].ui-grid-filter-input:focus { 
+    outline: none;
+ }
+ @import url('http://fonts.cdnfonts.com/css/pokemon-solid');
+
+ .pokemon {
+    width: 200px;
+    height: 100px;
+    /* center content using flex box */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* overlay */
+    box-shadow: 0 0 0 100px inset, 0 0 5px grey;
+    /* hover out transition */
+    transition: box-shadow 1s;
+    float: left;
+    margin: 10px;
+  }
+  .pokemon::after {
+    width: 90%;
+    height: 80%;
+    display: block;
+    white-space: pre;
+    font: 12pt 'sigmar one';
+    color: white;
+    border: 2px solid;
+    text-align: center;
+    /* center content using flex box */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* hover out transition */
+    transition: opacity 1s .5s;
+  }
+  .pokemon:hover {
+    box-shadow: 0 0 0 5px inset, 0 0 5px grey, 0 0 10px grey inset;
+    transition: box-shadow 1s;
+  }
+  .pokemon:hover::after {
+    opacity: 0;
+    transition: opacity .5s;
+  }
+  #bulbasaur {
+    background-image: url(http://vignette4.wikia.nocookie.net/pokemon/images/2/21/001Bulbasaur.png/revision/latest/scale-to-width-down/200?cb=20140328190757);
+    color: rgba(71, 121, 94, .9);
+    
+  }
+  
+  #bulbasaur::after {
+    content: 'Evolution';
+  }
+  #charmander {
+    background-image: url(http://vignette2.wikia.nocookie.net/pokemon/images/7/73/004Charmander.png/revision/latest/scale-to-width-down/200?cb=20140724195345);
+    color: rgba(221, 86, 63, .9);
+  }
+  
+  #charmander::after {
+    content: 'Size'
+  }
+  
+  #squirtle {
+    background-image: url(http://vignette2.wikia.nocookie.net/pokemon/images/3/39/007Squirtle.png/revision/latest/scale-to-width-down/200?cb=20140328191525);
+    color: rgba(65, 102, 114, .9);
+  }
+  
+  #squirtle::after {
+    content: 'Attack'
+  }
+  
+  #pikachu {
+    background-image: url(http://vignette2.wikia.nocookie.net/pokemon/images/0/0d/025Pikachu.png/revision/latest/scale-to-width-down/200?cb=20140328192412);
+    color: rgba(179, 152, 98, .9);
+  }
+  
+  #pikachu::after {
+    content: 'Special Results'
+  }
+#wrapper{
+    margin-left: 190px;
+    margin-top: 20px;
+}  
+  
+  
+
+
+
+
+  
+  
+
+
+
+
+
+
+ 

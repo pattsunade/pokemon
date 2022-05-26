@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html ng-app="app" >
+<head>
+  <meta charset="UTF-8">
+ 
+  <link rel="stylesheet" href="bower_components/angular-ui-grid/ui-grid.css">
+  
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+  <script src="angular-route.min.js"></script>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+  <script src="angular.min.js"></script>
+  <script src="bower_components/angular-ui-grid/ui-grid.js"></script>
+  <script src="app.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <link href="http://fonts.cdnfonts.com/css/pokemon-solid" rel="stylesheet">
+  <title>Document</title>
+
+</head>
+<body >
+  <div ng-controller="controlador as a">
+    <div class="contenedorImg"><img src="International_Pokémon_logo.svg.png" class="logo" alt=""></div>
+    
+    <img src="1200px-James_(Pocket_Monsters).png" class="james" alt="">
+    <img src="230px-Jessie_anime.webp" class="jessie" alt="">
+    <div id="wrapper">
+      <div id="bulbasaur" class="pokemon"></div>
+      <div id="charmander" class="pokemon"></div>
+      <div id="squirtle" class="pokemon"></div>
+      <div id="pikachu" class="pokemon"></div>
+    </div>
+    <div ui-grid="a.gridOptions" ui-grid-pagination class="uigrid"></div>
+  </div>
+</body>
+</html>
